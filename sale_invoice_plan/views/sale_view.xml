@@ -153,8 +153,7 @@
                         ('plan_date', '&lt;=', context_today().strftime('%Y-%m-%d'))
                     ]"
                 />
-                <group string="Group By">
-                    <filter
+                <filter
                         string="Customer"
                         name="groupby_customer"
                         domain="[]"
@@ -184,7 +183,6 @@
                         domain="[]"
                         context="{'group_by':'state'}"
                     />
-                </group>
             </search>
         </field>
     </record>
